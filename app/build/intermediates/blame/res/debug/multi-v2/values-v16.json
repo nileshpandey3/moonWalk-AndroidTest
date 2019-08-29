@@ -4,7 +4,7 @@
             "outputFile": "/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1f622755c2c193f21382aaa7a543723d/res/values-v16/values-v16.xml",
+                    "source": "/Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/27e0dc1daaaca2a27e46be9160ce7136/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/res/values-v16/values-v16.xml",
+                    "source": "/Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1bf3cf8bac22d744f178c818bb56a7b3/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

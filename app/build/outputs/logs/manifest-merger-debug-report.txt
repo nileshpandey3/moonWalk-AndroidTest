@@ -24,54 +24,25 @@ INJECTED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/
 MERGED from [:react-native-push-notification] /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-linear-gradient] /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/d654cf526b5953f9b2ac94a3d8117432/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1f622755c2c193f21382aaa7a543723d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.8.aar/1726c11778f8d4fc9edd468097de7def/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/27e0dc1daaaca2a27e46be9160ce7136/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-gcm-17.0.0.aar/3c03e9f2c179c25f4043c92b031d5013/AndroidManifest.xml:17:1-28:12
 MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/9c10d04a0ccc2cfc1ffceba5bf8740f3/AndroidManifest.xml:2:1-41:12
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:17:1-37:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/793592663a0346389bb783d950dd5c99/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/27f08b821b13f6591fb3f2ecb7975afc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0052353f40765b1f73e287826b9d2d86/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/46dd32a8ccf4c029ac419254efe42da9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c74c8dd9155df96e6cd8a625c8678bf4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/8154e8ac8db3046de7c82f0955dc6d80/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/18051517946d6c2e89fb9d11256534f1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8fd5c3d540fea29d90c5434e20f42e0e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c8d850ebf77a846871d9a1b26436b414/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5ef3bde9e46845fb08dc08962aefc119/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/84825a24af88735b35c4351482e50743/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/830e4f3986f29ed5b6b0117d43f7b4d2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/34d98511bf2903cacb274955dfd11542/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a534901b0a077435789c564bf98bb326/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5104a749a04c1fbc2023ee6a8e63bf07/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/866b06a83507d956265414b0caff25a9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9d3ee732c302c6573a281d3c845a91f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/6dd9963acad5c8596a0f3784410f7164/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a3c8ac7ab98bce6b4a136ec2a2d1b12a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0013d0605cb2e9e986fe799e4aeb70f2/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/cf528b8c76965005931194d8d493f412/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/96afa6971618ae030e60919a25c0969a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e55a91170830e907ae2a54446a6fd06d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1febe4cc362459ad0142e636a034c822/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/ac794b3768a7592bbc4095da8adbc25d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/0f876652b9d94d660709bda95563cf9e/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/51165f8d5429530444cf6f3efcfbfe13/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/69ac929c65e7584034f982bc517f1d52/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ab96bca28e5270b0a54cdb978083a996/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-iid-17.0.0.aar/1f4b4ed9323cba0724b3f7049db163b1/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/dd8f6903a757a2be114714fb67a94b39/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/051ca71c483ef1158aa2d26309286c22/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ed4d8edc805461012737e36e0c32a7ef/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/26ab786bf8477a6be57d14fcd6390b0c/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/c410d1b183dd061ff93d22b7ce2f93f6/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/7e01a6bae0a918e91f7453e596219718/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/fd0e70d3ff0fff55c5d48a4343165858/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/7c3c9734330e29f05cfd61317204d477/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/5086fc4663702d3a5cbacf236cd3534d/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5f030a108ab775511991f3edb126d88c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/aa4254b0717e39cf88f38d891bf6f222/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/725750dd280d67ec7fbe59c3ba92c48e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/db00a960ec3e9cda8b4cdbf62438df95/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/675064874b59f133b665351bf82567ec/AndroidManifest.xml:17:1-22:12
@@ -82,17 +53,23 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nilesh
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/9ebb5438dc3c690f1f070f67f19b0655/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1bf3cf8bac22d744f178c818bb56a7b3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/98b422a858d72367a18c7efb4927de69/AndroidManifest.xml:17:1-25:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/becf3c8070b5b0be3f13c50959fa7b96/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6ac406960355631ed6d406c0a86bb07e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/5d6117fb3416ffa9a4374356c18f0139/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/20df91800e8e1b8837b1e399866bc2b6/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/789292a7c63a5834e5f64f7619dea3dc/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5cd1dd6ccd434742428b55999a43b414/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/abec845e34c740a7083a7de406232c0e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/419d1cb95acb393f5de03b5086f72095/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3634186fb557d72d7faa8ce8d90570e6/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/202873c26ac6abb0f776a8a9245721d6/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/abec845e34c740a7083a7de406232c0e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a9a063fe3a8035ba6fd9b381b2f4fad7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6ac406960355631ed6d406c0a86bb07e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/e433ac4ea129ed66a62267a27899ad12/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/0f876652b9d94d660709bda95563cf9e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/a8c3f60c7d7e71873d36340032cb3750/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/9422cb9ee970dba5a1e74680196a48f5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/a72de1b21057c26e88b0cf36efd36680/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/70e22cc5066affb18f91fcec2da6e5af/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:1:1-74:12
 INJECTED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:1:1-74:12
 INJECTED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:1:1-74:12
@@ -142,45 +119,40 @@ ADDED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/mai
 		ADDED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:14:22-78
 application
 ADDED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:16:5-72:19
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/d654cf526b5953f9b2ac94a3d8117432/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/d654cf526b5953f9b2ac94a3d8117432/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.8.aar/1726c11778f8d4fc9edd468097de7def/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.8.aar/1726c11778f8d4fc9edd468097de7def/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-gcm-17.0.0.aar/3c03e9f2c179c25f4043c92b031d5013/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-gcm-17.0.0.aar/3c03e9f2c179c25f4043c92b031d5013/AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:22:5-35:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a534901b0a077435789c564bf98bb326/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a534901b0a077435789c564bf98bb326/AndroidManifest.xml:22:5-23:19
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-iid-17.0.0.aar/1f4b4ed9323cba0724b3f7049db163b1/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-iid-17.0.0.aar/1f4b4ed9323cba0724b3f7049db163b1/AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/dd8f6903a757a2be114714fb67a94b39/AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/dd8f6903a757a2be114714fb67a94b39/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/051ca71c483ef1158aa2d26309286c22/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/051ca71c483ef1158aa2d26309286c22/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ed4d8edc805461012737e36e0c32a7ef/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ed4d8edc805461012737e36e0c32a7ef/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/26ab786bf8477a6be57d14fcd6390b0c/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/26ab786bf8477a6be57d14fcd6390b0c/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/c410d1b183dd061ff93d22b7ce2f93f6/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/c410d1b183dd061ff93d22b7ce2f93f6/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/7e01a6bae0a918e91f7453e596219718/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/7e01a6bae0a918e91f7453e596219718/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1bf3cf8bac22d744f178c818bb56a7b3/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1bf3cf8bac22d744f178c818bb56a7b3/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/98b422a858d72367a18c7efb4927de69/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/98b422a858d72367a18c7efb4927de69/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:18:7-39
 	android:appComponentFactory
 		ADDED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:24:9-53
-		REJECTED from [com.android.support:support-compat:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/AndroidManifest.xml:22:18-91
 		REJECTED from [androidx.core:core:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1bf3cf8bac22d744f178c818bb56a7b3/AndroidManifest.xml:22:18-86
 	tools:ignore
 		ADDED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:22:9-48
@@ -286,102 +258,44 @@ MERGED from [:react-native-vector-icons] /Users/nileshpandey/Desktop/moonWalkTes
 MERGED from [:react-native-vector-icons] /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-linear-gradient] /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-linear-gradient] /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/d654cf526b5953f9b2ac94a3d8117432/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/d654cf526b5953f9b2ac94a3d8117432/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1f622755c2c193f21382aaa7a543723d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1f622755c2c193f21382aaa7a543723d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.8.aar/1726c11778f8d4fc9edd468097de7def/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.8.aar/1726c11778f8d4fc9edd468097de7def/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/27e0dc1daaaca2a27e46be9160ce7136/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/27e0dc1daaaca2a27e46be9160ce7136/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-gcm-17.0.0.aar/3c03e9f2c179c25f4043c92b031d5013/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-gcm-17.0.0.aar/3c03e9f2c179c25f4043c92b031d5013/AndroidManifest.xml:20:5-44
 MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/9c10d04a0ccc2cfc1ffceba5bf8740f3/AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/9c10d04a0ccc2cfc1ffceba5bf8740f3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/793592663a0346389bb783d950dd5c99/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/793592663a0346389bb783d950dd5c99/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/27f08b821b13f6591fb3f2ecb7975afc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/27f08b821b13f6591fb3f2ecb7975afc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0052353f40765b1f73e287826b9d2d86/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0052353f40765b1f73e287826b9d2d86/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/46dd32a8ccf4c029ac419254efe42da9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/46dd32a8ccf4c029ac419254efe42da9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c74c8dd9155df96e6cd8a625c8678bf4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c74c8dd9155df96e6cd8a625c8678bf4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/8154e8ac8db3046de7c82f0955dc6d80/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/8154e8ac8db3046de7c82f0955dc6d80/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/18051517946d6c2e89fb9d11256534f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/18051517946d6c2e89fb9d11256534f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8fd5c3d540fea29d90c5434e20f42e0e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8fd5c3d540fea29d90c5434e20f42e0e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c8d850ebf77a846871d9a1b26436b414/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c8d850ebf77a846871d9a1b26436b414/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5ef3bde9e46845fb08dc08962aefc119/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5ef3bde9e46845fb08dc08962aefc119/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/84825a24af88735b35c4351482e50743/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/84825a24af88735b35c4351482e50743/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/830e4f3986f29ed5b6b0117d43f7b4d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/830e4f3986f29ed5b6b0117d43f7b4d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/34d98511bf2903cacb274955dfd11542/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/34d98511bf2903cacb274955dfd11542/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17961609739a3e41c4ce946050b5e50a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a534901b0a077435789c564bf98bb326/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a534901b0a077435789c564bf98bb326/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5104a749a04c1fbc2023ee6a8e63bf07/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5104a749a04c1fbc2023ee6a8e63bf07/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/866b06a83507d956265414b0caff25a9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/866b06a83507d956265414b0caff25a9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9d3ee732c302c6573a281d3c845a91f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9d3ee732c302c6573a281d3c845a91f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/6dd9963acad5c8596a0f3784410f7164/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/6dd9963acad5c8596a0f3784410f7164/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a3c8ac7ab98bce6b4a136ec2a2d1b12a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a3c8ac7ab98bce6b4a136ec2a2d1b12a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0013d0605cb2e9e986fe799e4aeb70f2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0013d0605cb2e9e986fe799e4aeb70f2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/cf528b8c76965005931194d8d493f412/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/cf528b8c76965005931194d8d493f412/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/96afa6971618ae030e60919a25c0969a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/96afa6971618ae030e60919a25c0969a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e55a91170830e907ae2a54446a6fd06d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e55a91170830e907ae2a54446a6fd06d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1febe4cc362459ad0142e636a034c822/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1febe4cc362459ad0142e636a034c822/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/ac794b3768a7592bbc4095da8adbc25d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/ac794b3768a7592bbc4095da8adbc25d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/0f876652b9d94d660709bda95563cf9e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/0f876652b9d94d660709bda95563cf9e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/51165f8d5429530444cf6f3efcfbfe13/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/51165f8d5429530444cf6f3efcfbfe13/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/69ac929c65e7584034f982bc517f1d52/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/69ac929c65e7584034f982bc517f1d52/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ab96bca28e5270b0a54cdb978083a996/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ab96bca28e5270b0a54cdb978083a996/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-iid-17.0.0.aar/1f4b4ed9323cba0724b3f7049db163b1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-iid-17.0.0.aar/1f4b4ed9323cba0724b3f7049db163b1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/dd8f6903a757a2be114714fb67a94b39/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/dd8f6903a757a2be114714fb67a94b39/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/051ca71c483ef1158aa2d26309286c22/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/051ca71c483ef1158aa2d26309286c22/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ed4d8edc805461012737e36e0c32a7ef/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ed4d8edc805461012737e36e0c32a7ef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/16af3171f9689f05af804c239aefa0d2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/26ab786bf8477a6be57d14fcd6390b0c/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/26ab786bf8477a6be57d14fcd6390b0c/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/c410d1b183dd061ff93d22b7ce2f93f6/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/c410d1b183dd061ff93d22b7ce2f93f6/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/7e01a6bae0a918e91f7453e596219718/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/7e01a6bae0a918e91f7453e596219718/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/fd0e70d3ff0fff55c5d48a4343165858/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/fd0e70d3ff0fff55c5d48a4343165858/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/7c3c9734330e29f05cfd61317204d477/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/7c3c9734330e29f05cfd61317204d477/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/5086fc4663702d3a5cbacf236cd3534d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/5086fc4663702d3a5cbacf236cd3534d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5f030a108ab775511991f3edb126d88c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5f030a108ab775511991f3edb126d88c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/aa4254b0717e39cf88f38d891bf6f222/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/aa4254b0717e39cf88f38d891bf6f222/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/725750dd280d67ec7fbe59c3ba92c48e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/725750dd280d67ec7fbe59c3ba92c48e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/db00a960ec3e9cda8b4cdbf62438df95/AndroidManifest.xml:20:5-44
@@ -402,8 +316,8 @@ MERGED from [androidx.core:core:1.0.0] /Users/nileshpandey/.gradle/caches/transf
 MERGED from [androidx.core:core:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1bf3cf8bac22d744f178c818bb56a7b3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/98b422a858d72367a18c7efb4927de69/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/98b422a858d72367a18c7efb4927de69/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/becf3c8070b5b0be3f13c50959fa7b96/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/becf3c8070b5b0be3f13c50959fa7b96/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6ac406960355631ed6d406c0a86bb07e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6ac406960355631ed6d406c0a86bb07e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/5d6117fb3416ffa9a4374356c18f0139/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/5d6117fb3416ffa9a4374356c18f0139/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/20df91800e8e1b8837b1e399866bc2b6/AndroidManifest.xml:20:5-44
@@ -412,18 +326,30 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/789292a7c63a5834e5f64f7619dea3dc/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5cd1dd6ccd434742428b55999a43b414/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5cd1dd6ccd434742428b55999a43b414/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/abec845e34c740a7083a7de406232c0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/abec845e34c740a7083a7de406232c0e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/419d1cb95acb393f5de03b5086f72095/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/419d1cb95acb393f5de03b5086f72095/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3634186fb557d72d7faa8ce8d90570e6/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3634186fb557d72d7faa8ce8d90570e6/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/202873c26ac6abb0f776a8a9245721d6/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/202873c26ac6abb0f776a8a9245721d6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/abec845e34c740a7083a7de406232c0e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/abec845e34c740a7083a7de406232c0e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a9a063fe3a8035ba6fd9b381b2f4fad7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a9a063fe3a8035ba6fd9b381b2f4fad7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6ac406960355631ed6d406c0a86bb07e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6ac406960355631ed6d406c0a86bb07e/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/e433ac4ea129ed66a62267a27899ad12/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/e433ac4ea129ed66a62267a27899ad12/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/0f876652b9d94d660709bda95563cf9e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/0f876652b9d94d660709bda95563cf9e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/a8c3f60c7d7e71873d36340032cb3750/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/a8c3f60c7d7e71873d36340032cb3750/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/9422cb9ee970dba5a1e74680196a48f5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/9422cb9ee970dba5a1e74680196a48f5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/a72de1b21057c26e88b0cf36efd36680/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/a72de1b21057c26e88b0cf36efd36680/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/04488e2264329b52134838cb7783e014/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/70e22cc5066affb18f91fcec2da6e5af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/70e22cc5066affb18f91fcec2da6e5af/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -487,19 +413,19 @@ ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/t
 	android:name
 		ADDED from [me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.8.aar/9c10d04a0ccc2cfc1ffceba5bf8740f3/AndroidManifest.xml:39:22-90
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:29:13-82
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/83a99ad6a3b148ea50e66a69e550262f/AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-20.0.0.aar/6d58f3b84773ccc1ae1a51d647913239/AndroidManifest.xml:32:25-75
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/dd8f6903a757a2be114714fb67a94b39/AndroidManifest.xml:22:5-79
 	android:name
@@ -543,8 +469,8 @@ ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gra
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/26ab786bf8477a6be57d14fcd6390b0c/AndroidManifest.xml:13:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c42b03cc3afe49f5c6aa0c213350b20b/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/28345a64f465c9766e8c280c898e2d3c/AndroidManifest.xml:24:13-58

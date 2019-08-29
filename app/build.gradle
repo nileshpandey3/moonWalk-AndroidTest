@@ -96,6 +96,10 @@ def enableProguardInReleaseBuilds = false
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
+    packagingOptions {
+        pickFirst  'META-INF/*'
+    }
+
     defaultConfig {
         applicationId "com.moonwalk"
         minSdkVersion rootProject.ext.minSdkVersion
