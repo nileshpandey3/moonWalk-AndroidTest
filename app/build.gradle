@@ -94,7 +94,7 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
     packagingOptions {
         pickFirst  'META-INF/*'
@@ -109,6 +109,8 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        testBuildType System.getProperty('testBuildType', 'debug')  // This will later be used to control the test apk build type
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     splits {
         abi {
