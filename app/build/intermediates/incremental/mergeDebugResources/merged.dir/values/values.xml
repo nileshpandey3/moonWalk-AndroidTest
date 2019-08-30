@@ -196,8 +196,11 @@
     <dimen name="tooltip_y_offset_touch">16dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_actions" type="id"/>
     <item name="accessibility_hint" type="id"/>
+    <item name="accessibility_label" type="id"/>
     <item name="accessibility_role" type="id"/>
+    <item name="accessibility_states" type="id"/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
@@ -223,6 +226,8 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="google_play_services_version">12451000</integer>
+    <integer name="react_native_dev_server_port">8081</integer>
+    <integer name="react_native_inspector_proxy_port">8081</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -263,7 +268,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="adjustable_description" translatable="false">Adjustable</string>
+    <string name="alert_description" translatable="false">Alert</string>
     <string name="app_name">moonwalk</string>
     <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy\n</string>
     <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug JS Remotely</string>
@@ -289,6 +294,7 @@
     <string name="catalyst_report_button" project="catalyst" translatable="false">Report</string>
     <string name="catalyst_settings" project="catalyst" translatable="false">Dev Settings</string>
     <string name="catalyst_settings_title" project="catalyst" translatable="false">Catalyst Dev Settings</string>
+    <string name="combobox_description" translatable="false">Combo Box</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -310,12 +316,29 @@
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="header_description" translatable="false">Heading</string>
-    <string name="image_button_description" translatable="false">Button, Image</string>
     <string name="image_description" translatable="false">Image</string>
+    <string name="imagebutton_description" translatable="false">Button, Image</string>
     <string name="link_description" translatable="false">Link</string>
+    <string name="menu_description" translatable="false">Menu</string>
+    <string name="menubar_description" translatable="false">Menu Bar</string>
+    <string name="menuitem_description" translatable="false">Menu Item</string>
+    <string name="progressbar_description" translatable="false">Progress Bar</string>
+    <string name="radiogroup_description" translatable="false">Radio Group</string>
+    <string name="rn_tab_description" translatable="false">Tab</string>
+    <string name="scrollbar_description" translatable="false">Scroll Bar</string>
     <string name="search_description" translatable="false">Search Field</string>
     <string name="search_menu_title">Search</string>
+    <string name="spinbutton_description" translatable="false">Spin Button</string>
+    <string name="state_busy_description" translatable="false">busy</string>
+    <string name="state_collapsed_description" translatable="false">collapsed</string>
+    <string name="state_expanded_description" translatable="false">expanded</string>
+    <string name="state_off_description" translatable="false">off</string>
+    <string name="state_on_description" translatable="false">on</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_description" translatable="false">Summary</string>
+    <string name="tablist_description" translatable="false">Tab List</string>
+    <string name="timer_description" translatable="false">Timer</string>
+    <string name="toolbar_description" translatable="false">Tool Bar</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2748,7 +2771,27 @@
         <attr name="android:fontVariationSettings"/>
         <attr name="android:ttcIndex"/>
     </declare-styleable>
-    <declare-styleable name="GenericDraweeHierarchy"><attr format="integer" name="fadeDuration"/><attr format="float" name="viewAspectRatio"/><attr format="reference" name="placeholderImage"/><attr name="placeholderImageScaleType">
+    <declare-styleable name="GenericDraweeHierarchy">
+
+    <!-- NOTE: If adding a new attr here, also add to SimpleDraweeView below -->
+    <eat-comment/>
+
+    <!-- Fade duration in milliseconds. -->
+    <attr format="integer" name="fadeDuration"/>
+
+    <!-- Aspect ratio (width / height) of the view, not necessarily of the images. -->
+    <attr format="float" name="viewAspectRatio"/>
+
+    <!-- Image branches -
+    Scale-type values must match those in GenericDraweeHierarchyInflater.getScaleTypeFromXml.
+    (GenericDraweeHierarchyInflater.java).
+    For drawables that should not be scaled, such as those with the android:tileMode
+    attribute set, use the value 'none'. -->
+
+    <!-- A drawable or color to be be used as a placeholder. -->
+    <attr format="reference" name="placeholderImage"/>
+    <!-- Scale type of the placeholder image. Ignored if placeholderImage is not specified. -->
+    <attr name="placeholderImageScaleType">
       <enum name="none" value="-1"/>
       <enum name="fitXY" value="0"/>
       <enum name="fitStart" value="1"/>
@@ -2759,7 +2802,12 @@
       <enum name="centerCrop" value="6"/>
       <enum name="focusCrop" value="7"/>
       <enum name="fitBottomStart" value="8"/>
-    </attr><attr format="reference" name="retryImage"/><attr name="retryImageScaleType">
+    </attr>
+
+    <!-- A drawable to be be used as a retry image. -->
+    <attr format="reference" name="retryImage"/>
+    <!-- Scale type of the retry image. Ignored if retryImage is not specified. -->
+    <attr name="retryImageScaleType">
       <enum name="none" value="-1"/>
       <enum name="fitXY" value="0"/>
       <enum name="fitStart" value="1"/>
@@ -2770,7 +2818,12 @@
       <enum name="centerCrop" value="6"/>
       <enum name="focusCrop" value="7"/>
       <enum name="fitBottomStart" value="8"/>
-    </attr><attr format="reference" name="failureImage"/><attr name="failureImageScaleType">
+    </attr>
+
+    <!-- A drawable to be be used as a failure image. -->
+    <attr format="reference" name="failureImage"/>
+    <!-- Scale type of the failure image. Ignored if failureImage is not specified. -->
+    <attr name="failureImageScaleType">
       <enum name="none" value="-1"/>
       <enum name="fitXY" value="0"/>
       <enum name="fitStart" value="1"/>
@@ -2781,7 +2834,12 @@
       <enum name="centerCrop" value="6"/>
       <enum name="focusCrop" value="7"/>
       <enum name="fitBottomStart" value="8"/>
-    </attr><attr format="reference" name="progressBarImage"/><attr name="progressBarImageScaleType">
+    </attr>
+
+    <!-- A drawable to be be used as a progress bar. -->
+    <attr format="reference" name="progressBarImage"/>
+    <!-- Scale type of the progress bar. Ignored if progressBarImage is not specified. -->
+    <attr name="progressBarImageScaleType">
       <enum name="none" value="-1"/>
       <enum name="fitXY" value="0"/>
       <enum name="fitStart" value="1"/>
@@ -2792,7 +2850,12 @@
       <enum name="centerCrop" value="6"/>
       <enum name="focusCrop" value="7"/>
       <enum name="fitBottomStart" value="8"/>
-    </attr><attr format="integer" name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType">
+    </attr>
+    <!-- Progress bar Auto Rotate interval in milliseconds -->
+    <attr format="integer" name="progressBarAutoRotateInterval"/>
+
+    <!-- Scale type of the actual image. -->
+    <attr name="actualImageScaleType">
       <enum name="none" value="-1"/>
       <enum name="fitXY" value="0"/>
       <enum name="fitStart" value="1"/>
@@ -2803,7 +2866,50 @@
       <enum name="centerCrop" value="6"/>
       <enum name="focusCrop" value="7"/>
       <enum name="fitBottomStart" value="8"/>
-    </attr><attr format="reference" name="backgroundImage"/><attr format="reference" name="overlayImage"/><attr format="reference" name="pressedStateOverlayImage"/><attr format="boolean" name="roundAsCircle"/><attr format="dimension" name="roundedCornerRadius"/><attr format="boolean" name="roundTopLeft"/><attr format="boolean" name="roundTopRight"/><attr format="boolean" name="roundBottomRight"/><attr format="boolean" name="roundBottomLeft"/><attr format="boolean" name="roundTopStart"/><attr format="boolean" name="roundTopEnd"/><attr format="boolean" name="roundBottomStart"/><attr format="boolean" name="roundBottomEnd"/><attr format="color" name="roundWithOverlayColor"/><attr format="dimension" name="roundingBorderWidth"/><attr format="color" name="roundingBorderColor"/><attr format="dimension" name="roundingBorderPadding"/></declare-styleable>
+    </attr>
+
+    <!-- A drawable or color to be used as a background. -->
+    <attr format="reference" name="backgroundImage"/>
+
+    <!-- A drawable or color to be used as an overlay. -->
+    <attr format="reference" name="overlayImage"/>
+
+    <!-- A drawable or color to be used as a pressed-state-overlay -->
+    <attr format="reference" name="pressedStateOverlayImage"/>
+
+    <!-- Rounding params -
+    Declares attributes for rounding shape, mode and border. -->
+
+    <!-- Round as circle. -->
+    <attr format="boolean" name="roundAsCircle"/>
+    <!-- Rounded corner radius. Ignored if roundAsCircle is used. -->
+    <attr format="dimension" name="roundedCornerRadius"/>
+    <!-- Round the top-left corner. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundTopLeft"/>
+    <!-- Round the top-right corner. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundTopRight"/>
+    <!-- Round the bottom-right corner. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundBottomRight"/>
+    <!-- Round the bottom-left corner. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundBottomLeft"/>
+    <!-- Round the top-start edge. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundTopStart"/>
+    <!-- Round the top-end edge. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundTopEnd"/>
+    <!-- Round the bottom-start edge. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundBottomStart"/>
+    <!-- Round the bottom-end edge. Ignored if roundAsCircle is used. -->
+    <attr format="boolean" name="roundBottomEnd"/>
+    <!-- Round by overlying color. -->
+    <attr format="color" name="roundWithOverlayColor"/>
+    <!-- Rounding border width-->
+    <attr format="dimension" name="roundingBorderWidth"/>
+    <!-- Rounding border color -->
+    <attr format="color" name="roundingBorderColor"/>
+    <!-- Rounding border padding -->
+    <attr format="dimension" name="roundingBorderPadding"/>
+
+  </declare-styleable>
     <declare-styleable name="GradientColor">
         <!-- Start color of the gradient. -->
         <attr name="android:startColor"/>
@@ -3165,7 +3271,97 @@
 
 <attr format="reference|string" name="scopeUris"/>
 </declare-styleable>
-    <declare-styleable name="SimpleDraweeView"><attr format="string" name="actualImageUri"/><attr format="reference" name="actualImageResource"/><attr name="fadeDuration"/><attr name="viewAspectRatio"/><attr name="placeholderImage"/><attr name="placeholderImageScaleType"/><attr name="retryImage"/><attr name="retryImageScaleType"/><attr name="failureImage"/><attr name="failureImageScaleType"/><attr name="progressBarImage"/><attr name="progressBarImageScaleType"/><attr name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType"/><attr name="backgroundImage"/><attr name="overlayImage"/><attr name="pressedStateOverlayImage"/><attr name="roundAsCircle"/><attr name="roundedCornerRadius"/><attr name="roundTopLeft"/><attr name="roundTopRight"/><attr name="roundBottomRight"/><attr name="roundBottomLeft"/><attr name="roundTopStart"/><attr name="roundTopEnd"/><attr name="roundBottomStart"/><attr name="roundBottomEnd"/><attr name="roundWithOverlayColor"/><attr name="roundingBorderWidth"/><attr name="roundingBorderColor"/><attr name="roundingBorderPadding"/></declare-styleable>
+    <declare-styleable name="SimpleDraweeView" parent="GenericDraweeHierarchy">
+
+    <!-- An image uri . -->
+    <attr format="string" name="actualImageUri"/>
+    <!-- An image reference -->
+    <attr format="reference" name="actualImageResource"/>
+
+    <!-- Attributes inherited from GenericDraweeHierarchy -->
+    <eat-comment/>
+
+    <!-- Fade duration in milliseconds. -->
+    <attr name="fadeDuration"/>
+
+    <!-- Aspect ratio (width / height) of the view, not necessarily of the images. -->
+    <attr name="viewAspectRatio"/>
+
+    <!-- Image branches -
+    Scale-type values must match those in GenericDraweeHierarchyInflater.getScaleTypeFromXml.
+    (GenericDraweeHierarchyInflater.java).
+    For drawables that should not be scaled, such as those with the android:tileMode
+    attribute set, use the value 'none'. -->
+
+    <!-- A drawable or color to be be used as a placeholder. -->
+    <attr name="placeholderImage"/>
+    <!-- Scale type of the placeholder image. Ignored if placeholderImage is not specified. -->
+    <attr name="placeholderImageScaleType"/>
+
+    <!-- A drawable to be be used as a retry image. -->
+    <attr name="retryImage"/>
+    <!-- Scale type of the retry image. Ignored if retryImage is not specified. -->
+    <attr name="retryImageScaleType"/>
+
+    <!-- A drawable to be be used as a failure image. -->
+    <attr name="failureImage"/>
+    <!-- Scale type of the failure image. Ignored if failureImage is not specified. -->
+    <attr name="failureImageScaleType"/>
+
+
+    <!-- A drawable to be be used as a progress bar. -->
+    <attr name="progressBarImage"/>
+    <!-- Scale type of the progress bar. Ignored if progressBarImage is not specified. -->
+    <attr name="progressBarImageScaleType"/>
+
+    <!-- Progress bar Auto Rotate interval in milliseconds -->
+    <attr name="progressBarAutoRotateInterval"/>
+
+    <!-- Scale type of the actual image. -->
+    <attr name="actualImageScaleType"/>
+
+    <!-- A drawable or color to be used as a background. -->
+    <attr name="backgroundImage"/>
+
+    <!-- A drawable or color to be used as an overlay. -->
+    <attr name="overlayImage"/>
+
+    <!-- A drawable or color to be used as a pressed-state-overlay -->
+    <attr name="pressedStateOverlayImage"/>
+
+    <!-- Rounding params -
+    Declares attributes for rounding shape, mode and border. -->
+
+    <!-- Round as circle. -->
+    <attr name="roundAsCircle"/>
+    <!-- Rounded corner radius. Ignored if roundAsCircle is used. -->
+    <attr name="roundedCornerRadius"/>
+    <!-- Round the top-left corner. Ignored if roundAsCircle is used. -->
+    <attr name="roundTopLeft"/>
+    <!-- Round the top-right corner. Ignored if roundAsCircle is used. -->
+    <attr name="roundTopRight"/>
+    <!-- Round the bottom-right corner. Ignored if roundAsCircle is used. -->
+    <attr name="roundBottomRight"/>
+    <!-- Round the bottom-left corner. Ignored if roundAsCircle is used. -->
+    <attr name="roundBottomLeft"/>
+    <!-- Round the top-start edge. Ignored if roundAsCircle is used. -->
+    <attr name="roundTopStart"/>
+    <!-- Round the top-end edge. Ignored if roundAsCircle is used. -->
+    <attr name="roundTopEnd"/>
+    <!-- Round the bottom-start edge. Ignored if roundAsCircle is used. -->
+    <attr name="roundBottomStart"/>
+    <!-- Round the bottom-end edge. Ignored if roundAsCircle is used. -->
+    <attr name="roundBottomEnd"/>
+    <!-- Round by overlying color. -->
+    <attr name="roundWithOverlayColor"/>
+    <!-- Rounding border width-->
+    <attr name="roundingBorderWidth"/>
+    <!-- Rounding border color -->
+    <attr name="roundingBorderColor"/>
+    <!-- Rounding border padding -->
+    <attr name="roundingBorderPadding"/>
+
+  </declare-styleable>
     <declare-styleable name="Spinner">
         <!-- The prompt to display when the spinner's dialog is shown. -->
         <attr name="android:prompt"/>

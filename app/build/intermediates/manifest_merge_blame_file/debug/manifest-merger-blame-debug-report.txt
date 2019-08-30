@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moonwalk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:6:5-77
+12-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:6:22-75
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:7:5-68
+13-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:7:22-65
+14
+15    <permission
+16        android:name="com.moonwalk.permission.C2D_MESSAGE"
+16-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:9:9-63
+17        android:protectionLevel="signature" />
+17-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:10:9-44
+18
+19    <uses-permission android:name="com.moonwalk.permission.C2D_MESSAGE" />
+19-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:13:5-66
+20-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:13:22-63
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:14:5-80
+21-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:14:22-78
+22
+23    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+24-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/52301b1d578a80cf682461759b604e3b/play-services-gcm-17.0.0/AndroidManifest.xml:23:5-82
+24-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/52301b1d578a80cf682461759b604e3b/play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
+25    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+26    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+27    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+28    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+29    <!-- for Samsung -->
+30    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+30-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:19:5-86
+30-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:19:22-83
+31    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+31-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:20:5-87
+31-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:20:22-84
+32    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+32-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:23:5-81
+32-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:23:22-78
+33    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+33-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:24:5-83
+33-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:24:22-80
+34    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+34-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:27:5-88
+34-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:27:22-85
+35    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+35-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:28:5-92
+35-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:28:22-89
+36    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+36-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:31:5-84
+36-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:31:22-81
+37    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+37-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:34:5-83
+37-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:34:22-80
+38    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+38-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:37:5-91
+38-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:37:22-88
+39    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+39-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:38:5-92
+39-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:38:22-89
+40    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+40-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:39:5-93
+40-->[me.leolin:ShortcutBadger:1.1.8] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/6cf02e6a14cc2db4042d55d10a5eb064/ShortcutBadger-1.1.8/AndroidManifest.xml:39:22-90
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
+41-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:22:22-76
+42
+43    <application
+43-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:16:5-72:19
+44        android:name="com.moonwalk.MainApplication"
+44-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:17:7-38
+45        android:allowBackup="false"
+45-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:20:7-34
+46        android:appComponentFactory="whateverString"
+46-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:24:9-53
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+48-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:19:7-41
+49        android:label="@string/app_name"
+49-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:18:7-39
+50        android:testOnly="true"
+51        android:theme="@style/AppTheme" >
+51-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:21:7-38
+52        <meta-data
+52-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:25:9-26:61
+53            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+53-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:25:21-99
+54            android:value="YOUR NOTIFICATION CHANNEL NAME" />
+54-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:26:13-59
+55        <meta-data
+55-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:27:9-28:68
+56            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+56-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:27:21-106
+57            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" />
+57-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:28:13-66
+58        <!-- Change the resource name to your App's accent color - or any other color you want -->
+59        <meta-data
+59-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:30:9-31:54
+60            android:name="com.dieam.reactnativepushnotification.notification_color"
+60-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:30:21-92
+61            android:resource="@android:color/white" />
+61-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:31:13-52
+62
+63        <receiver
+63-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:33:9-41:20
+64            android:name="com.google.android.gms.gcm.GcmReceiver"
+64-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:34:13-66
+65            android:exported="true"
+65-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:35:13-36
+66            android:permission="com.google.android.c2dm.permission.SEND" >
+66-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:36:13-73
+67            <intent-filter>
+67-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:37:13-40:29
+68                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+68-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:38:17-81
+68-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:38:25-78
+69
+70                <category android:name="com.moonwalk" />
+70-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:39:27-58
+71            </intent-filter>
+72        </receiver>
+73        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+73-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:43:9-110
+73-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:43:19-107
+74        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+74-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:44:9-48:20
+74-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:44:19-115
+75            <intent-filter>
+75-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:45:13-47:29
+76                <action android:name="android.intent.action.BOOT_COMPLETED" />
+76-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:46:17-79
+76-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:46:25-76
+77            </intent-filter>
+78        </receiver>
+79
+80        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" />
+80-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:49:9-118
+80-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:49:18-116
+81
+82        <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+83        <service
+83-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:52:9-58:19
+84            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm"
+84-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:53:13-110
+85            android:exported="false" >
+85-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:54:13-37
+86            <intent-filter>
+86-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:55:13-57:29
+87                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+87-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:38:17-81
+87-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:38:25-78
+88            </intent-filter>
+89        </service>
+90
+91        <activity
+91-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:61:7-70:18
+92            android:name="com.moonwalk.MainActivity"
+92-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:62:9-37
+93            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+93-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:64:9-79
+94            android:label="@string/app_name"
+94-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:63:9-41
+95            android:windowSoftInputMode="adjustResize" >
+95-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:65:9-51
+96            <intent-filter>
+96-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:66:9-69:25
+97                <action android:name="android.intent.action.MAIN" />
+97-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:67:13-65
+97-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:67:21-62
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:68:13-73
+99-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:68:23-70
+100            </intent-filter>
+101        </activity>
+102        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+102-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:71:7-84
+102-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:71:17-81
+103        <!--
+104             FirebaseMessagingService performs security checks at runtime,
+105             but set to not exported to explicitly avoid allowing another app to call it.
+106        -->
+107        <service
+107-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+108            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+108-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+110            <intent-filter android:priority="-500" >
+110-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:13-33:29
+110-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:28-51
+111                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+111-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:32:17-78
+111-->[com.google.firebase:firebase-messaging:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/cd3c0d6aeed6646c13b1cc5ba443e11d/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:32:25-75
+112            </intent-filter>
+113        </service>
+114        <service
+114-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:29:9-35:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:30:13-84
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:31:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+118                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+118-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+120        </service>
+121
+122        <receiver
+122-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+123            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+123-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+124            android:exported="true"
+124-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[com.google.firebase:firebase-iid:20.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/1c0d6ea5ab4d41ebc843c2e4635bc85e/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+126            <intent-filter>
+126-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:55:13-57:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:38:17-81
+127-->/Users/nileshpandey/Desktop/moonWalkTest/moonwalk/android/app/src/main/AndroidManifest.xml:38:25-78
+128            </intent-filter>
+129        </receiver>
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/733a8b76ff13564809d2e38ad70dbcec/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/733a8b76ff13564809d2e38ad70dbcec/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/733a8b76ff13564809d2e38ad70dbcec/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/733a8b76ff13564809d2e38ad70dbcec/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/5c2ed84fe98e8bb5807bfc9bad2e244e/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/5c2ed84fe98e8bb5807bfc9bad2e244e/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+138            android:authorities="com.moonwalk.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/5c2ed84fe98e8bb5807bfc9bad2e244e/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/5c2ed84fe98e8bb5807bfc9bad2e244e/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:19.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/5c2ed84fe98e8bb5807bfc9bad2e244e/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/fbf56fd5ad6197ba78aecf81ee724af2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/fbf56fd5ad6197ba78aecf81ee724af2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nileshpandey/.gradle/caches/transforms-2/files-2.1/fbf56fd5ad6197ba78aecf81ee724af2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+145    </application>
+146
+147</manifest>
